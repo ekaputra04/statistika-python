@@ -34,7 +34,7 @@ def main():
         print("Mean :", mean)
         standar_deviasi = hitung_standar_deviasi(data)
         print("\nStandar deviasi dari data adalah:", standar_deviasi)
-        print("Coefficient of variation dari data adalah:", standar_deviasi / mean)
+        print("Coefficient of variation dari data adalah:", (standar_deviasi / mean) * 100, "%")
         print("================================================================================")
     else:
         print("Tidak ada data untuk dihitung coefficient of variation.")
