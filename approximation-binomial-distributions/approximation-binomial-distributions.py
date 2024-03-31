@@ -18,7 +18,7 @@ def main():
     print(f'np = {np} dan nq = {nq}')
 
     if np < 5 or nq < 5:
-        print("Bukan termasuk distribusi normal")
+        print("Tidak mendekati distribusi normal")
         exit()
     
     mu = np
